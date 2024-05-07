@@ -4,10 +4,10 @@ class Solution:
         self.res = 0
         self.cnt = 0
     def maxVowels(self, s: str, k: int) -> int:
-        if k == 1:
-            for c in s:
-                if c in self.vowel:
-                    return 1
+        # if k == 1:
+        #     for c in s:
+        #         if c in self.vowel:
+        #             return 1
         for _ in range(0, k):
             if s[_] in self.vowel:
                 self.res += 1
