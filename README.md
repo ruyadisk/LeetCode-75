@@ -1,4 +1,1 @@
-## Solved problems and its answers in LeetCode 75 list. 
-
-# LeetCodeNotes
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+Solved problems and correpending answers in LeetCode 75 list, created with LeetHub 3.0.
