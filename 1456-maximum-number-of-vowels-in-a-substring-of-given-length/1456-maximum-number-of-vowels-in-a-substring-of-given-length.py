@@ -18,5 +18,4 @@ class Solution:
                 self.res = self.cnt if self.cnt > self.res else self.res
             elif s[_-k] in self.vowel and s[_] not in self.vowel:
                 self.cnt  = self.cnt - 1 if self.cnt > 0 else 0
-            print(s[_-k+1], s[_], self.cnt, self.res)
         return self.res
