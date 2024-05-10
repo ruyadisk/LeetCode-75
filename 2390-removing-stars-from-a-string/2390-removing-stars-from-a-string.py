@@ -6,5 +6,4 @@ class Solution:
                 stack+=c
             else:
                 stack=stack[:-1]
-        print(stack)
         return str(stack)
