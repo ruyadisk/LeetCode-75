@@ -8,6 +8,5 @@ class Solution:
                 return j
             else:
                 tbl[j-1] += tbl[j]
-        print(tbl)
         return 0
                 
